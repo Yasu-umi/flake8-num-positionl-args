@@ -1,0 +1,26 @@
+[flake8]
+ignore =
+  # Missing docstring in public module
+  D100
+  # Missing docstring in public package
+  D104
+  # Missing docstring in magic method
+  D105
+  # Missing docstring in __init__
+  D107
+  # First line should be in imperative mood
+  D400
+  # First line should end with a period
+  D401
+  # line break before binary operator
+  D403
+  # First word of the first line should be properly capitalized
+  W503
+  # Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+  S101
+  # Double quotes found but single quotes preferred
+  Q000
+
+max-line-length = 120
+# for black
+extend-ignore = E203
